@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hangman</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style/hangman.css">
+<script src="js/JSI.js" defer></script>
+<script type="module" src="js/hangman.js"></script>
+</head>
+<body>
+    <div class="game-modal">
+        <div class="content">
+            <img src="lost.gif" alt="gif">
+            <h4>Game Over!</h4>
+            <p>The correct answer was: <b>H1</b></p>
+            <button class="play-again">Play-again</button>
+  
+        </div>
+    </div>
+    <div class="container">
+        <div class="hangman-box">
+            <img src="hangman0.svg" alt="hangman-img">
+            <h1>HANGMAN GAME</h1>
+            </div>
+        <div class="game-box">
+            <ul class="word-display"></ul>
+            <h4 class="hint-text">
+                 <a href="home.html"><button class="exit-game"> Exit Game</button></a>
+Hint:
+<b>Which element is used to define the largest heading?</b>
+            </h4>
+ <h4 class ="guesses-text">
+Incorrect guesses:
+<b>0/6</b>
+ </h4>
+<div class="keyboard"></div> 
+    </div> 
+    </div> 
+
+</body>
+</html>
